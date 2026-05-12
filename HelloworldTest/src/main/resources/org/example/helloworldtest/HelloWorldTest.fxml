@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="helloText" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.helloworldtest.HelloWorldTest">
+   <children>
+      <Label  fx:id="helloText" layoutX="280.0" layoutY="191.0" text="Label" />
+      <Button fx:id="btnEnviar" layoutX="274.0" layoutY="222.0" mnemonicParsing="false" onAction="#mostrarTexto" text="Click" />
+   </children>
+</AnchorPane>
